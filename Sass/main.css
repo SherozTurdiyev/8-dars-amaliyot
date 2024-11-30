@@ -37,4 +37,5 @@ nav .container ul .nav-item:hover a {
 nav .container ul .nav-item-link {
   color: red;
   font-size: 1.5rem;
+  text-decoration: underline;
 }/*# sourceMappingURL=main.css.map */

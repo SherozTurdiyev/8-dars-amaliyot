@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  padding: 0;
+  margin: 0;
+  background: white;
+  .container {
+    width: 80%;
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo {
+      color: aqua;
+      font-size: 2rem;
+    }
+    ul {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      .nav-item {
+        padding: 5px 16px;
+        border: 1px solid red;
+        &:hover {
+          a {
+            color: black;
+          }
+        }
+        &-link {
+          color: red;
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+}
